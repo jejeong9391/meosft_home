@@ -19,7 +19,10 @@ color: #fff; }
 ::selection {
 background: #000;
 color: #fff; }
-
+/* 2021-02-23 p태그 단어단위로 줄바꿈되도록 변경 */
+h2,p{
+word-break: keep-all;
+}
 a {
 -webkit-transition: .3s all ease;
 -o-transition: .3s all ease;
@@ -123,7 +126,7 @@ background: #000; }
 .form-control {
 height: 43px;
 border-radius: 30px;
-font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+font-family: "NanumSquareRound", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 .form-control:active, .form-control:focus {
   border-color: #4285f4; }
 .form-control:hover, .form-control:active, .form-control:focus {
@@ -1995,4 +1998,9 @@ color: #fff; }
  .topWrap h1{
  margin-bottom:150px;
  }
+ }
+
+
+ .mg10{
+ margin: 10px 0px;
  }
