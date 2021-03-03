@@ -2715,7 +2715,7 @@ html {
     padding-top: 3rem !important; }
   .pr-lg-5,
   .px-lg-5 {
-    padding-right: 3rem !important; }
+    padding-right: 1rem !important; } /*2021-03-04 3rem -> 1rem으로 변경 */
   .pb-lg-5,
   .py-lg-5 {
     padding-bottom: 3rem !important; }

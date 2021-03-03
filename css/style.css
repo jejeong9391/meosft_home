@@ -1251,6 +1251,8 @@ position: relative;
 z-index: 9; }
 
 .unit-4 {
+/*2021-03-04 카드 height추가 */
+height: 230px;
 padding: 30px;
 background: #f1f1f1;
 border-radius: 5px;
