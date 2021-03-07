@@ -1,0 +1,77 @@
+* { font-size:12px; color:#2d2d2d; font-family:"Poppins", "NanumBarunGothic", sans-serif; font-weight:400; box-sizing:border-box; }
+body { transition:all 0.3s; }
+img { max-width:100%; }
+textarea { resize:none; }
+.form-control.form-control-lg { font-size:12px; }
+.min-vh-50 { min-height:50vh !important; }
+
+.text-point { color:#e6ae49 !important; font-weight:700; font-size:20px; }
+.btn-dotted { display:inline-block; border:dotted 2px #e6ae49; padding:10px 15px; font-size:15px; }
+.navbar-toggler > i { font-size:16px; color:#ffffff; }
+
+#navigation .navbar-brand { font-size:28px; letter-spacing:4px; font-weight:700; color:#ffffff; }
+#navigation .nav-link { font-size:13px; padding:30px 20px; color:#ffffff; letter-spacing:1px; }
+
+#pagination { margin-top:60px; }
+#pagination .page-item.active .page-link { color:#ffffff; background:#e6ae49; border:solid 1px #e6ae49; } 
+
+#mainSlider { }
+#mainSlider .carousel-inner, #mainSlider .carousel-item { width:100%; height:100%; }
+#mainSlider .carousel-image { position:relative; background-size:cover; width:100%; height:100%; }
+#mainSlider .dark-layer { position:absolute; width:100%; height:100%; left:0px; top:0px; background-color:rgba(32,32,32,0.8); }
+#mainSlider .carousel-caption { top:0px; right:0px; bottom:0px; left:0px; margin:auto; width:70%; height:130px; }
+#mainSlider .carousel-caption h5 { font-size:40px; letter-spacing:10px; margin-bottom:20px; }
+#mainSlider .carousel-caption p { color:#888888; font-size:14px; letter-spacing:1px; } 
+
+#subSlider { }
+#subSlider .carousel-inner, #subSlider .carousel-item { width:100%; height:100%; }
+#subSlider .carousel-image { position:relative; background-size:cover; width:100%; height:100%; }
+#subSlider .dark-layer { position:absolute; width:100%; height:100%; left:0px; top:0px; background-color:rgba(32,32,32,0.8); }
+#subSlider .carousel-caption { top:0px; right:0px; bottom:0px; left:0px; margin:auto; width:70%; height:150px; }
+#subSlider .carousel-caption h5 { font-size:40px; letter-spacing:10px; margin-bottom:20px; }
+#subSlider .carousel-caption p { color:#888888; font-size:14px; letter-spacing:1px; }
+
+#intro-download { padding:20px 0px; margin-top:90px; }
+#intro-download * { font-size:15px; }
+#intro-download a { font-size:12px; } 
+
+.intro-text { padding:110px 0px 0px 0px; }
+.intro-text .header { font-size:21px; letter-spacing:4px; margin-bottom:40px; }
+.intro-text .content { font-size:15px; line-height:30px;  }
+.intro-text .content a { color:#e6ae49; font-weight:500; font-size:15px; }
+
+#intro-about { }
+#intro-about .intro-about-image { display:block; width:100%; height:300px; overflow:hidden; border-radius:10px; }
+#intro-about .intro-about-image > img { border-radius:20px; }
+#intro-about .container { margin-top:100px; border-bottom:solid 1px #eeeeee; padding-bottom:100px; }
+#intro-about .container:first-child { margin-top:0px; }
+#intro-about .header { letter-spacing:1px; font-weight:500;  }
+
+#intro-product .col-md-4 { padding:15px; }
+#intro-contactus { }
+
+#intro-news a { color:#333333; font-size:12px;  }
+#intro-news .card { border-radius:0px; }
+#intro-news .card-header { color:#333333; background:#ffffff; }
+#intro-news .card-header .btn { text-align:left; width:100%; letter-spacing:1px;  }
+#intro-news .card-header .category { color:#e6ae49 !important; margin-right:6px; letter-spacing:1px;  }
+#intro-news .card-header .date { float:right; letter-spacing:1px;  }
+#intro-news .list-group-content { padding:10px; margin:10px 0x; }
+
+footer { border-top:solid 1px #eeeeee; }
+footer * { font-size:14px; color:#666666; padding:20px 0px; line-height:30px; }
+
+@media all and (max-width: 768px) {
+	.navbar-nav { background:rgba(0, 0, 0, 0.6); }
+	.nav-link { color:#ffffff !important; }
+	.nav-link.text-point { color:#e6ae49 !important; }
+	.carousel-caption { display:block !important; }
+	.carousel-caption h5 { font-size:20px !important; }
+	.carousel-caption p { font-size:12px !important; }
+	
+	#intro-news .card span { display:block; }
+	#intro-news .card .category { margin-bottom:6px; } 
+    #intro-news .card .date { float:none; clear:both; display:block; text-align:right; font-size:12px; color:#999999; font-size:11px; margin-top:6px; }
+    
+    #intro-download * { font-size:12px; }
+}
